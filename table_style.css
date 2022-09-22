@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+}
+
+.name_table th {
+    border: 1px solid black;
+    padding: 0%;
+    margin: 0%;
+    width: 22%;
+    height: 25px;
+}
+
+.name_table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.first_tr{
+    background-color: #228f8f;
+    color: #FFC875;
+    
+}
+
+.first_tr :hover{
+    background-color:#FFC875;
+    color:  #228f8f;
+    transition: 1s;
+}
+
+.second_tr{
+    background-color: #f5f522;
+    color: #0C57FF;
+}
+
+.second_tr :hover{
+    background-color:#0C57FF;
+    color: #f5f522;
+    transition: 1s;
+}

@@ -1,0 +1,67 @@
+.red_squere{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 5%;
+}
+
+.first_image{
+    position: absolute;
+}
+
+.top_square{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.first_image .top_square{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.first_image .bottom_square{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.first_image .middle_line {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+.bottom_square{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.white_square{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.middle_line{
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.second_image{
+    margin-left: 50%;
+}
+
+.second_image .top_square{
+    transform: translate(100px, 50px);
+}
+
+.second_image .bottom_square{
+    transform: translate(100px, 50px);
+}
+
+.second_image .middle_line{
+    transform: translate(50px, 50px);
+}
